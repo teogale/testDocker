@@ -13,7 +13,7 @@ jobs:
         name: teogale
         uses: docker/login-action@v1 
         with:
-          username: %USERNAME_GITHUB%
+          username: teogale
           password: ${{ secrets.%SECRET_DOCKER_TOKEN% }}
       -
         name: Build and push
